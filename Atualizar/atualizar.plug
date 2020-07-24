@@ -1,0 +1,9 @@
+[Core]
+Name = Atualizar
+Module = atualizar
+
+[Python]
+Version = 2+
+
+[Documentation]
+Description = Atualiza os plugins de acordo com a master
