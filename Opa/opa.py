@@ -8,4 +8,4 @@ class Opa(BotPlugin):
     @re_botcmd(pattern=r"^opa$", flags=re.IGNORECASE)
     def opa(self, msg, match):
         """Say Opa"""
-        return "Opa {}".format(msg.frm)
+        return "Opa <@{}>".format(msg.frm.id)
