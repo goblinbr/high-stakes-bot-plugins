@@ -11,5 +11,5 @@ class Atualizar(BotPlugin):
     def atualizar(self, msg, args):
         """Say hello to the world"""
         cmd = "cd " + str(pathlib.Path(__file__).parent.absolute().parent) + " && git pull"
-        proc = subprocess.run(cmd, shell=True, text=True)
+        proc = subprocess.run(cmd, shell=True, text=True, stdout=subprocess.PIPE)
         return proc.stdout
