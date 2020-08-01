@@ -1,0 +1,9 @@
+[Core]
+Name = Admins
+Module = admins
+
+[Python]
+Version = 2+
+
+[Documentation]
+Description = List admins
